@@ -12,8 +12,8 @@
 "@context": "http://schema.org/",
 "@type": "Organization",
 "name": "Android Developers",
-"logo": "https://developer.android.com/_static/images/android/touchicon-180.png",
-"url": "https://developer.android.com"
+"logo": "https://developer.android.com/_static/b7f71dd5fb/images/android/favicon.png",
+"url": "http://127.0.0.1"
 }
 </script>
     <script type="application/ld+json">
@@ -21,7 +21,7 @@
 "@context": "http://schema.org",
 "@type": "WebSite",
 "name": "Android Developers",
-"url": "https://developer.android.com",
+"url": "http://127.0.0.1",
 "potentialAction": {
 "@type": "SearchAction",
 "target": "https://developer.android.com/s/results?q={search_term_string}",
@@ -32,15 +32,19 @@
 <!-- 上面图标 -->
     <link rel="shortcut icon" href="https://developer.android.com/_static/b7f71dd5fb/images/android/favicon.png">
     <link rel="apple-touch-icon" href="https://developer.android.com/_static/b7f71dd5fb/images/android/favicon.png">
+
+
     <!-- 格式 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons">
-    <link rel="stylesheet" href="https://developer.android.com/_static/b7f71dd5fb/css/devsite-android-light-grey.css">
-    <link rel="stylesheet" href="https://developer.android.com/_static/b7f71dd5fb/css/android/android-site.css">
+    <link rel="stylesheet" href="/static/css/family.css">
+    <link rel="stylesheet" href="/static//css/devsite-android-light-grey.css">
+    <link rel="stylesheet" href="/static/css/android-site.css">
+
+
     <!-- 调整 -->
     <link rel="search" type="application/opensearchdescription+xml" title="Android Developers" href="https://developer.android.com/s/opensearch.xml"> 
     
-    <script src="https://developer.android.com/_static/b7f71dd5fb/js/jquery-bundle.js"></script>
+    <script src="/static/js/jquery-bundle.js"></script>
     <meta property="og:site_name" content="Android Developers">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://irina-redesign.android.com/">
@@ -55,7 +59,8 @@
     <meta property="og:description" content="The official site for Android app developers. Provides the Android SDK tools and API documentation.">
     
     <!-- 调整 -->
-    <link rel="stylesheet" href="https://developer.android.com/static/css/landing-page.css">
+    <!-- <link rel="stylesheet" href="https://developer.android.com/static/css/landing-page.css"> -->
+    <link rel="stylesheet" href="/static/css/landing-page.css">
     <meta name="description" content="The official site for Android developers. Provides the Android SDK and documentation for app developers and designers.">
 </head>
 
@@ -70,8 +75,9 @@
                         <div class="devsite-top-logo-row devsite-full-site-width">
                             <button type="button" class="devsite-expand-section-nav devsite-header-icon-button button-flat material-icons gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Hamburger menu"></button>
                             <div class="devsite-product-name-wrapper">
-                                <a href="https://developer.android.com/" class="devsite-site-logo-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Site logo">
-                                    <img src="https://developer.android.com/_static/b7f71dd5fb/images/android/lockup.svg" class="devsite-site-logo"alt="Android Developers">
+                                <a href="/" class="devsite-site-logo-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Site logo">
+                                    <!-- <img src="https://developer.android.com/_static/b7f71dd5fb/images/android/lockup.svg" class="devsite-site-logo"alt="Android Developers"> -->
+                                    <img src="/static/images/android/lockup.svg" class="devsite-site-logo"alt="Android Developers">
                                     <span class="devsite-site-name devsite-product-name">Android Developers</span>
                                 </a>
                             </div>
@@ -79,39 +85,30 @@
                                 <nav class="devsite-doc-set-nav devsite-nav devsite-overflow-tabs-scroll-wrapper">
                                     <ul class="devsite-doc-set-nav-tab-list devsite-overflow-tabs-scroll">
                                         <li class="devsite-doc-set-nav-tab-container devsite-nav-tab">
-                                            <a href="https://developer.android.com/about/" class=" devsite-nav-tab devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Platform"> Platform </a>
+                                            <a href="/about/" class=" devsite-nav-tab devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Platform"> 关于 </a>
                                         </li>
                                         <li class="devsite-doc-set-nav-tab-container devsite-nav-tab">
-                                            <a href="https://developer.android.com/studio/" class=" devsite-nav-tab devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Android Studio"> Android Studio</a>
+                                            <a href="/studio/" class=" devsite-nav-tab devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Android Studio"> Android Studio</a>
                                         </li>
                                         <li class="devsite-doc-set-nav-tab-container devsite-nav-tab">
-                                            <a href="https://developer.android.com/distribute/" class=" devsite-nav-tab devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Google Play"> Google Play</a>
+                                            <a href="/distribute/" class=" devsite-nav-tab devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Google Play"> 谷歌市场</a>
                                         </li>
                                         <li class="devsite-doc-set-nav-tab-container devsite-nav-tab">
-                                            <a href="https://developer.android.com/docs/" class=" devsite-nav-tab
-          devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events"
-                                                data-label="Tab: Docs">
-                                                Docs
-                                            </a>
+                                            <a href="/docs/" class=" devsite-nav-tab devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Docs">文档</a>
                                         </li>
-                                        <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
-         ">
-                                            <a href="https://android-developers.googleblog.com/" class=" devsite-nav-tab
-          devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events"
-                                                data-label="Tab: Blog">
-                                                Blog
-                                            </a>
+                                        <li class="devsite-doc-set-nav-tab-container devsite-nav-tab">
+                                            <a href="https://android-developers.googleblog.com/" class=" devsite-nav-tab devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Blog"> 交流</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
-                            <form class="devsite-search-form" action="https://developer.android.com/s/results/" method="GET"
-                                id="top-search" search-placeholder='搜索'></form>
-                            <button type="button" class="devsite-search-button devsite-header-icon-button button-flat
-                                 material-icons"></button>
+                            <form class="devsite-search-form" action="https://developer.android.com/s/results/" method="GET" id="top-search" search-placeholder='搜索'></form>
+                            <button type="button" class="devsite-search-button devsite-header-icon-button button-flat material-icons"></button>
                         </div>
                     </div>
                 </div>
+
+                <!-- 搜索部分 -->
                 <div class="devsite-collapsible-section">
                     <div class="devsite-header-background devsite-full-site-width">
                         <div class="devsite-collapsible-section-wrapper">
@@ -123,15 +120,14 @@
                                             <span class="is-active">android</span>
                                         </div>
                                     </div>
-                                    <iframe data-src="/index_15bf4219d9daa050c345d3b847b207be.frame" class="framebox inherit-locale "
+                                    <iframe data-src="/frame" class="framebox inherit-locale "
                                         style="width: calc(100% + 40px); height: calc(100px + 40px);">
                                         <p>[This section requires a browser that supports JavaScript and iframes.]</p>
                                     </iframe>
                                 </div>
                             </div>
                             <div class="devsite-search-wrapper devsite-header-billboard-search-wrapper">
-                                <form class="devsite-search-form devsite-billboard-search" action="https://developer.android.com/s/results/"
-                                    id="billboard-search" method="GET" search-placeholder='搜索产品和文档'>
+                                <form class="devsite-search-form devsite-billboard-search" action="https://developer.android.com/s/results/" id="billboard-search" method="GET" search-placeholder='搜索产品和文档'>
                                     <div id="searchbox" class="devsite-searchbox">
                                         <input placeholder='搜索产品和文档' type="text" class="devsite-search-field devsite-search-query"
                                             name="q" value="" autocomplete="off" aria-label="搜索框">
@@ -161,10 +157,6 @@
             </header>
 
 
-
-
-
-
             <script>
                 if (window.jQuery) {
                     $(document).ready(function () {
@@ -176,6 +168,8 @@
                 }
             </script>
         </div>
+
+
         <div id="gc-wrapper" itemscope itemtype="http://schema.org/Article">
             <input class="google-analytics-id-json" type="hidden" value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension4&quot;: &quot;Android Developers&quot;, &quot;dimension5&quot;: &quot;zh-cn&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;, &quot;dimension8&quot;: null}, &quot;gaid&quot;: &quot;UA-49880327-2&quot;}">
             <input class="google-analytics-id-json" type="hidden" value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension4&quot;: &quot;Android Developers&quot;, &quot;dimension5&quot;: &quot;zh-cn&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;, &quot;dimension8&quot;: null}, &quot;gaid&quot;: &quot;UA-5831155-1&quot;}">
@@ -271,78 +265,36 @@
                     <div class="devsite-nav-index-back" tabindex="0"></div>
                     <nav>
 
-
-
-
-
-
-
-
-
-
-
                     </nav>
                 </div>
-
             </nav>
 
 
             <div class="devsite-main-content clearfix">
-
-
-
-                <div class="devsite-banner devsite-banner-announcement
-              
-                devsite-background devsite-background-grey
-              ">
+                <div class="devsite-banner devsite-banner-announcement devsite-background devsite-background-grey">
                     <div class="devsite-banner-inner">
                         <span style="opacity:.6">
-                            <span style="font-size: 18px; margin-right: 10px; vertical-align: text-bottom;" class="material-icons">lightbulb_outline</span> Please take our April 2018 developer survey.
+                            <span style="font-size: 18px; margin-right: 10px; vertical-align: text-bottom;" class="material-icons">lightbulb_outline</span> 请参加google 20118.4的开发者调查
                             <a style="background:transparent"
-                                target="_blank" href="https://goo.gl/BKo4jX">Start survey</a>
+                                target="_blank" href="https://goo.gl/BKo4jX">开始参与</a>
                         </span>
 
                     </div>
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
                 <article class="devsite-article">
                     <article class="devsite-article-inner">
-
-
-                        <section class="devsite-landing-row
-                  devsite-landing-row-1-up
-                  dac-marquee
-                  devsite-background devsite-background-grey
-                  ">
+                        <section class="devsite-landing-row devsite-landing-row-1-up  dac-marquee  devsite-background devsite-background-grey">
                             <div class="devsite-landing-row-group">
-                                <div class="devsite-landing-row-item 
-
-
-
-
-
-      devsite-landing-row-item-no-image
-">
-                                    <div class="devsite-landing-row-item-description
-          ">
+                                <div class="devsite-landing-row-item   devsite-landing-row-item-no-image">
+                                    <div class="devsite-landing-row-item-description">
                                         <h3 id="span-classdac-eyebrow-data-eyebrowfeaturedandroid-p-developer-previewspan">
                                             <span class="dac-eyebrow" data-eyebrow="Featured">Android P developer preview</span>
                                         </h3>
                                         <div class="devsite-landing-row-item-description-content">
                                             <p>The latest developer preview of Android, bringing performance enhancements and
                                                 new features to your apps.</p>
-                                            <img src="https://developer.android.com/static/images/home/p-dev-preview-mobile.svg">
+                                            <img src="/static/images/home/p-dev-preview-mobile.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developer.android.com/preview/" class="button dac-button dac-outline-button">
@@ -399,7 +351,7 @@
                                         <div class="devsite-landing-row-item-description
           ">
                                             <div class="devsite-landing-row-item-description-content">
-                                                <img src="https://developer.android.com/static/images/home/architecture-components.svg">
+                                                <img src="/static/images/home/architecture-components.svg">
                                             </div>
                                             <div class="devsite-landing-row-item-buttons">
                                                 <a href="https://developer.android.com/topic/libraries/architecture/" class="button dac-button dac-flat-button">
@@ -449,7 +401,7 @@
                                         <div class="devsite-landing-row-item-description
           ">
                                             <div class="devsite-landing-row-item-description-content">
-                                                <img src="https://developer.android.com/static/images/home/android-ktx.svg">
+                                                <img src="/static/images/home/android-ktx.svg">
                                             </div>
                                             <div class="devsite-landing-row-item-buttons">
                                                 <a href="https://github.com/android/android-ktx/" class="button dac-button dac-flat-button">
@@ -482,7 +434,7 @@
                                             <p>Whether you’re an experienced developer or creating your first Android app, here
                                                 are some resources to get you started.</p>
                                             <div class="dac-card-footer dac-landing-row-bg-slate">
-                                                <img src="https://developer.android.com/studio/images/home/android-studio-logo-invert.svg"
+                                                <img src="/studio/images/home/android-studio-logo-invert.svg"
                                                     alt="Android Studio">
                                                 <a href="https://developer.android.com/studio/" class="button dac-button dac-outline-button">Download</a>
                                             </div>
@@ -671,7 +623,7 @@
                                             Android apps are designed using the Material Design guidelines. These guidelines provide everything you need to know about
                                             how to design your app, from the user experience flow to visual design, motion,
                                             fonts, and more.
-                                            <img alt="" src="https://developer.android.com/static/images/home/design-illustration.svg">
+                                            <img alt="" src="/static/images/home/design-illustration.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developer.android.com/design/" class="button dac-button dac-flat-button">
@@ -717,7 +669,7 @@
                                             </span>
                                         </h3>
                                         <div class="devsite-landing-row-item-description-content">
-                                            <img src="https://developer.android.com/static/images/home/wear-green.svg">
+                                            <img src="/static/images/home/wear-green.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developer.android.com/wear/" class="button dac-button dac-flat-button">
@@ -744,7 +696,7 @@
                                             </span>
                                         </h3>
                                         <div class="devsite-landing-row-item-description-content">
-                                            <img src="https://developer.android.com/static/images/home/tv-green.svg">
+                                            <img src="/static/images/home/tv-green.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developer.android.com/tv/" class="button dac-button dac-flat-button">
@@ -771,7 +723,7 @@
                                             </span>
                                         </h3>
                                         <div class="devsite-landing-row-item-description-content">
-                                            <img src="https://developer.android.com/static/images/home/auto-green.svg">
+                                            <img src="/static/images/home/auto-green.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developer.android.com/auto/" class="button dac-button dac-flat-button">
@@ -806,7 +758,7 @@
                                             </span>
                                         </h3>
                                         <div class="devsite-landing-row-item-description-content">
-                                            <img src="https://developer.android.com/static/images/home/chrome-green.svg">
+                                            <img src="/static/images/home/chrome-green.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developer.android.com/chrome-os/" class="button dac-button dac-flat-button">
@@ -833,7 +785,7 @@
                                             </span>
                                         </h3>
                                         <div class="devsite-landing-row-item-description-content">
-                                            <img src="https://developer.android.com/static/images/home/things-green.svg">
+                                            <img src="/static/images/home/things-green.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developer.android.com/things/" class="button dac-button dac-flat-button">
@@ -860,7 +812,7 @@
                                             </span>
                                         </h3>
                                         <div class="devsite-landing-row-item-description-content">
-                                            <img src="https://developer.android.com/static/images/home/ndk-green.svg">
+                                            <img src="/static/images/home/ndk-green.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developer.android.com/ndk/" class="button dac-button dac-flat-button">
@@ -901,7 +853,7 @@
                                             <p>Start by setting up the Google Play services library, then build with the APIs
                                                 for services such as Google Maps, Firebase, Google Cast, AdMob, and much
                                                 more.</p>
-                                            <img alt="" src="https://developer.android.com/static/images/home/gservices-bg.svg">
+                                            <img alt="" src="/static/images/home/gservices-bg.svg">
                                         </div>
                                         <div class="devsite-landing-row-item-buttons">
                                             <a href="https://developers.google.com/android/guides/setup" class="button dac-button dac-outline-button">
@@ -1259,13 +1211,13 @@
                 </nav>
             </footer>
         </div>
-        <script async defer src="//www.gstatic.com/feedback/api.js"></script>
-        <script src="https://developer.android.com/_static2/b7f71dd5fb/jsi18n/"></script>
-        <script src="https://developer.android.com/_static/b7f71dd5fb/js/script_foot_closure__zh_cn.js"></script>
-        <script src="https://developer.android.com/_static/b7f71dd5fb/js/script_foot.js"></script>
+        <script async defer src="/static/js/feedback/api.js"></script>
+        <script src="/static/js/jsi18n.js"></script>
+        <script src="/static/js/script_foot_closure__zh_cn.js"></script>
+        <script src="/static/js/script_foot.js"></script>
         <script>var METADATA = {};</script>
-        <script src="https://developer.android.com/irina_metadata_en.js?v=2018050112"></script>
-        <script src="https://developer.android.com/_static/b7f71dd5fb/js/managed/dynamic-content-widget.js"></script>
+        <script src="/static/js/irina_metadata_en.js"></script>
+        <script src="/static/js/dynamic-content-widget.js"></script>
         <script>
             (function ($) {
 
